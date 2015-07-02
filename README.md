@@ -1,4 +1,4 @@
-cfpiva - Utility per calcolo e verifica di Codice Fiscale e Partita IVA
+cfpiva - Utility per verifica di Codice Fiscale e Partita IVA
 
 ## Installation
 
