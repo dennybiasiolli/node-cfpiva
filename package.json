@@ -1,7 +1,7 @@
 {
   "name": "cfpiva",
-  "version": "0.0.2",
-  "description": "Calcolo e verifica di Codice Fiscale e Partita IVA",
+  "version": "0.0.3",
+  "description": "Verifica di Codice Fiscale e Partita IVA",
   "main": "cfpiva.js",
   "scripts": {
     "test": "node test.js"
