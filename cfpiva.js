@@ -44,7 +44,7 @@ cfpiva.controllaPIVA = function(piva, callback) {
     if( piva == '' )  return '';
     if( piva.length != 11 )
         return formatReturn(false, 'La lunghezza della partita IVA non è corretta: la partita IVA dovrebbe essere lunga esattamente 11 caratteri.', callback);
-    validi = "0123456789";
+    var validi = "0123456789";
     for( i = 0; i < 11; i++ ){
         if( validi.indexOf( piva.charAt(i) ) == -1 )
             return formatReturn(false, 'La partita IVA contiene un carattere non valido \'' + piva.charAt(i) + '\'. I caratteri validi sono solo cifre.', callback);
